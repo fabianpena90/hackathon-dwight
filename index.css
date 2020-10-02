@@ -7,7 +7,7 @@
   src: url('./CloisterBlack.ttf');
 }
 
-
+/* Header */
 .l-heading {
   padding-top: 50px;
   text-align: center;
@@ -22,4 +22,19 @@
   background: #DFB13F;
   overflow: auto; /* for fixed side bar*/
  }
-   
+
+ .showcaseContent {
+   border: 10px solid #8A6328;
+   padding: 150px;
+   display: flex;
+   margin: 150px;
+
+ }
+
+ .showcaseP {
+   display: flex;
+   padding: 20px 20px;
+   margin-top: 70px;
+   font-size: 1.8rem;
+   text-align: center;
+ }
