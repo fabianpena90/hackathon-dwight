@@ -23,16 +23,12 @@
   overflow: auto; /* for fixed side bar*/
  }
 
- .showcase {
-}
-
 .showcaseContent {
   background: url('/img/Explosion.gif');
    border: 10px solid #8A6328;
    padding: 150px;
    display: flex;
    margin: 150px;
-
  }
 
  .showcaseP {
@@ -52,4 +48,25 @@
    margin: 0;
    padding: 15px 20px;
    background: #687A64;
+ }
+
+ /*  Work */
+.showcaseWork {
+  margin-top: 10%;
+  margin-left: 15%;
+}
+
+ .poster {
+   display: flex;
+   padding: 10px
+ }
+
+ .poster p {
+   padding-top: 50px;
+   font-size: 1.4rem;
+   padding-right: 25px;
+ }
+
+ .sub {
+   margin: 20px 0;
  }
