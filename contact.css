@@ -28,14 +28,31 @@
      padding: 150px;
      display: flex;
      margin: 150px;
-  
    }
   
    .showcaseP {
      display: flex;
      flex-direction: column;
      padding: 20px 20px;
-     margin-top: 70px;
+     margin: 70px 400px;
      font-size: 1.8rem;
-     text-align: center;
+     text-align: left;
    }
+
+   .showcase img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  /* Footer */
+  .footer p {
+    margin: 20px;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0;
+    padding: 15px 20px;
+    background: #687A64;
+  }
