@@ -70,3 +70,16 @@
  .sub {
    margin: 20px 0;
  }
+
+ /* About */
+ .showcaseAbout {
+   margin: 100px;
+ }
+ .showcaseAbout img{
+   display: block;
+   margin: 0 auto;
+ }
+ .showcaseAbout p{
+  margin-top: 80px;
+  font-size: 2rem;
+ }
