@@ -23,16 +23,12 @@
   overflow: auto; /* for fixed side bar*/
  }
 
- .showcase {
-}
-
 .showcaseContent {
   background: url('/img/Explosion.gif');
    border: 10px solid #8A6328;
    padding: 150px;
    display: flex;
    margin: 150px;
-
  }
 
  .showcaseP {
