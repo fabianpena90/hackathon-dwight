@@ -28,14 +28,20 @@
      padding: 150px;
      display: flex;
      margin: 150px;
-  
    }
   
    .showcaseP {
      display: flex;
      flex-direction: column;
      padding: 20px 20px;
-     margin-top: 70px;
+     margin: 70px 400px;
      font-size: 1.8rem;
-     text-align: center;
+     text-align: left;
    }
+
+   .showcase img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
