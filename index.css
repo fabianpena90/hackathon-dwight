@@ -49,3 +49,24 @@
    padding: 15px 20px;
    background: #687A64;
  }
+
+ /*  Work */
+.showcaseWork {
+  margin-top: 10%;
+  margin-left: 15%;
+}
+
+ .poster {
+   display: flex;
+   padding: 10px
+ }
+
+ .poster p {
+   padding-top: 50px;
+   font-size: 1.4rem;
+   padding-right: 25px;
+ }
+
+ .sub {
+   margin: 20px 0;
+ }
