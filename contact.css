@@ -1,0 +1,41 @@
+* {
+    margin: 0
+  }
+  
+  @font-face {
+    font-family: 'cloister';
+    src: url('./CloisterBlack.ttf');
+  }
+  
+  /* Header */
+  .l-heading {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 3.5rem;
+    text-shadow: -11px -11px 3px rgba(150, 150, 150, 0.6);
+    font-family: cloister;
+  }
+  
+  /* Content */
+  .content {
+    flex: 1 1 auto;
+    background: #DFB13F;
+    overflow: auto; /* for fixed side bar*/
+   }
+  
+   .showcaseContent {
+     border: 10px solid #8A6328;
+     padding: 150px;
+     display: flex;
+     margin: 150px;
+  
+   }
+  
+   .showcaseP {
+     display: flex;
+     flex-direction: column;
+     padding: 20px 20px;
+     margin-top: 70px;
+     font-size: 1.8rem;
+     text-align: center;
+   }
