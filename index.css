@@ -1,39 +1,25 @@
-.container {
-  display: flex;
-  height: 100vh;
-  margin: 0 3%;
-}
-.content {
- flex: 1 1 auto;
- background: white;
- overflow: auto; /* for fixed side bar*/
-}
-  
-.sidenav {
-  flex: 0 0 200px; 
-  background-color:white;
+* {
+  margin: 0
 }
 
-.navbar {
-  padding-top: 50%;
-  list-style: none;
-  line-height: 100px;
-  font-size: 1.8rem;
+@font-face {
+  font-family: 'cloister';
+  src: url('./CloisterBlack.ttf');
 }
 
-.navbar a {
-  text-decoration: none;
-  color: black;
-  padding: 10px;
-}
-
-.navbar a:hover {
-  border: 1px solid black;
-  color: black;
-  background-color: aqua;
-}
 
 .l-heading {
+  padding-top: 50px;
   text-align: center;
   font-size: 3.5rem;
+  text-shadow: -11px -11px 3px rgba(150, 150, 150, 0.6);
+  font-family: cloister;
 }
+
+/* Content */
+.content {
+  flex: 1 1 auto;
+  background: #DFB13F;
+  overflow: auto; /* for fixed side bar*/
+ }
+   
